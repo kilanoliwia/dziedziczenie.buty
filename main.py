@@ -13,3 +13,7 @@ class Sneaker(Shoe):
 class Boot(Shoe):
     def describe(self):
         return (f"{self.brand} Boot, rozmiar {self.size} - idealne na zimę")
+
+class Heels(Shoe):
+    def describe(self):
+        return (f"{self.brand} Heels, rozmiar {self.size} - idealne na eleganckie wyjścia")
