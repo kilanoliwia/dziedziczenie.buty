@@ -17,3 +17,12 @@ class Boot(Shoe):
 class Heels(Shoe):
     def describe(self):
         return (f"{self.brand} Heels, rozmiar {self.size} - idealne na eleganckie wyjścia")
+
+sneakers = Sneaker("Nike", 36)
+boots = Boot("Timberland", 43)
+heels = Heels("Lasocki", 39)
+
+
+print(sneakers.describe())
+print(boots.describe())
+print(heels.describe())
